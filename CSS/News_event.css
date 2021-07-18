@@ -1,0 +1,645 @@
+body {
+    overflow: auto;
+}
+.container {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background: url('../Images/Summoner_s_Rift_1.png');
+    background-size: 200%;
+}
+.header {
+    width: 100%;
+    height: 8%;
+    padding: 0% 15% 0% 15%;
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    background: black;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.header > .content {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header > .content > .champions {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.header > .content > .news > a {
+    color: white;
+}
+.header > .icon {
+    height: 100%;
+    width: auto;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > .icon > img {
+    width: auto;
+    height: 80%;
+}
+.footer {
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer > .block_1 {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    position: inherit;
+}
+.footer > .block_1 > .riot_game {
+    height: 100%;
+}
+.footer > .block_1 > .riot_game > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_1 > .garena {
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer > .block_1 > .garena > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_1 > .vn_esport {
+    height: 100%;
+}
+.footer > .block_1 > .vn_esport > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+.footer > .block_3 {
+    margin-bottom: 30px;
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer > .block_3 > .block_3_left {
+    margin-right: 5%;
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+.footer > .block_3 > .block_3_right {
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+.footer > .block_3 > .block_3_left > .content {
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer > .block_3 > .block_3_right > .content {
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer > .block_3 > .block_3_left > .content > a {
+    color: black;
+}
+.footer > .block_3 > .block_3_right > .content > a {
+    color: black;
+}
+.between {
+    background-image: url('../Images/Summoner\'s_Rift_2.png');
+    background-size: 300%;
+    width: 100%;
+    padding-top: 80px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.between > .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: inherit;
+}
+.between > .top > .image {
+    width: 90%;
+    height: auto;
+}
+.between > .top > .image > img {
+    width: 100%;
+    height: auto;
+}
+.between > .top > .content {
+    width: 90%;
+    margin-top: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+}
+.between > .top > .content > .mainpage > a {
+    color: ivory;
+    text-decoration-line: none;
+}
+.between > .top > .content > .news > a {
+    color: ivory;
+    text-decoration-line: none;
+}
+.between > .top > .content > .index {
+    color: ivory;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.between > .info {
+    width: 100%;
+    margin-top: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.between > .info > .search_in {
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.between > .info > .search_in > input {
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.404);
+    border: double 1px black;
+    font-size: 20px;
+    float: left;
+    color: #63717f;
+    padding-left: 35px;
+    border-radius: 20px 0px 20px 0px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    outline: none;
+}
+.between > .info > .search_in > input {
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.404);
+    border: double 1px black;
+    font-size: 20px;
+    float: left;
+    color: #63717f;
+    padding-left: 35px;
+    border-radius: 20px 0px 20px 0px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    outline: none;
+}
+.between > .info > .info_top {
+    margin: 30px 3% 30px 3%;
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.between > .info > .info_top > .left {
+    width: 33.33333333%;
+    height: 100%;
+    border: 1px solid rgb(165, 161, 161);
+    background: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.between > .info > .info_top > .left > .image {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.between > .info > .info_top > .left > .content {
+    margin-left: 10px;
+}
+.between > .info > .info_top > .left > .content > .title {
+    text-transform: uppercase;
+    color: rgb(44, 93, 240);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.between > .info > .info_top > .left > .content > .detail {
+    font-size: 20px;
+    font-weight: bold;
+}
+.between > .info > .info_top > .left > .image > img {
+    width: 85%;
+    height: 80%;
+}
+.between > .info > .info_top > .center {
+    width: 33.333333333%;
+    height: 100%;
+    border: 1px solid rgb(165, 161, 161);
+    background: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 70px 0px 70px;
+}
+.between > .info > .info_top > .center > .image {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.between > .info > .info_top > .center > .content {
+    margin-left: 10px;
+}
+.between > .info > .info_top > .center > .content > .title {
+    text-transform: uppercase;
+    color: rgb(44, 93, 240);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.between > .info > .info_top > .center > .content > .detail {
+    font-size: 20px;
+    font-weight: bold;
+}
+.between > .info > .info_top > .center > .image > img {
+    width: 85%;
+    height: 80%;
+}
+.between > .info > .info_top > .right {
+    width: 33.333333333%;
+    height: 100%;
+    border: 1px solid rgb(165, 161, 161);
+    background: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.between > .info > .info_top > .right > .image {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.between > .info > .info_top > .right > .content {
+    margin-left: 10px;
+}
+.between > .info > .info_top > .right > .content > .title {
+    text-transform: uppercase;
+    color: rgb(44, 93, 240);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.between > .info > .info_top > .right > .content > .detail {
+    font-size: 20px;
+    font-weight: bold;
+}
+.between > .info > .info_top > .right > .image > img {
+    width: 85%;
+    height: 200px;
+}
+.between > .info > .bottom {
+    flex-grow: 1;
+    width: 92%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+.between > .info > .bottom > .right {
+    width: 25%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.between > .info > .bottom > .right > .news {
+    margin: 50px 40px 50px 40px;
+    background-image: url('../Images/ve_binh_as.png');
+    background-size: 100%;
+    width: 240px;
+    height: 122px;
+}
+.between > .info > .bottom > .right > .news > a > h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.between > .info > .bottom > .right > .community {
+    margin: 0px 40px 50px 40px;
+    background-image: url('../Images/ve_binh_as.png');
+    background-size: 100%;
+    width: 240px;
+    height: 122px;
+}
+.between > .info > .bottom > .right > .community > a > h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.between > .info > .bottom > .right > .blog {
+    margin: 0px 40px 50px 40px;
+    background-image: url('../Images/ve_binh_as.png');
+    background-size: 100%;
+    width: 240px;
+    height: 122px;
+}
+.between > .info > .bottom > .right > .blog > a > h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.between > .info > .bottom > .left {
+    flex-grow: 1;
+    border-right: gray 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.between > .info > .bottom > .left > .post_4 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_4 > img {
+    border: red 1px solid;
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .bottom > .left > .post_4 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_4 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_4 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_5 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_5 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_5 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_5 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_5 > img {
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .bottom > .left > .post_6 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_6 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_6 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_6 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_6 > img {
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .bottom > .left > .post_7 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_7 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_7 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_7 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_7 > img {
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .bottom > .left > .post_8 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_8 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_8 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_8 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_8 > img {
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .bottom > .left > .post_9 {
+    height: calc(100%/9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.between > .info > .bottom > .left > .post_9 > .content {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.between > .info > .bottom > .left > .post_9 > .content > .title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(75, 75, 233);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.between > .info > .bottom > .left > .post_9 > .content > .detail {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.between > .info > .bottom > .left > .post_9 > img {
+    width: 360px;
+    height: 220px;
+}
+.between > .info > .produce {
+    width: 92%;
+    height: 60px;
+    margin: 0px 100px 30px 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgb(80, 71, 71);
+    color: white;
+}
+.between > .info > .produce > .title {
+    margin: 15px 30px 15px 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-right: 30px;
+    border-right: 2px white solid;
+}
+.between > .info > .produce > .content {
+    font-size: 20px;
+}
+.between > .info > .bottom > .left > .title {
+    margin-bottom: 30px;
+    width: 100%;
+    background: rgb(80, 71, 71);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+}
+.between > .info > .bottom > .left > .title > .other {
+    margin: 7px 30px 7px 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-right: 30px;
+    border-right: 2px white solid;
+}

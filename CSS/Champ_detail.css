@@ -1,0 +1,211 @@
+.header {
+    width: 100%;
+    height: 8%;
+    padding: 0% 5%;
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    background: black;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: left;
+}
+.header > .content {
+    margin-top: 3px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > .content > .champions {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.header > .icon {
+    height: 100%;
+    width: auto;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > .icon > img {
+    width: auto;
+    height: 85%;
+}
+
+
+.content__box{
+    padding: 100px 20%;
+    background-color: #091120;
+    color: lavender;
+}
+.content__heading{
+    position: relative;
+    z-index: auto;
+    text-align: left;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.champ__image{
+    background-color: gray;
+}
+.dot {
+    cursor:pointer;
+    height: 12px;
+    width: 12px;
+    margin-top: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+.active, .dot:hover {
+    background-color: orange;
+}
+.champ__name{
+    margin-right: 50px;
+    font-size: 120px;
+    color: lavender;
+}
+.champ__title{
+
+    font-size: 50px;
+    color: lavender;
+}
+.champ__description{
+    padding-top: 50px;
+    font-size: 25px;
+    color: lavender;
+}
+
+
+.champion__overview{
+    padding-top: 50px;
+    color: lavender;
+    font-size: 20px;
+}
+
+.spell{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-color: lavender;
+    padding-top: 50px;
+    color: lavender;
+    font-size: 20px;
+}
+.table{
+    width: 100%;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+
+.tb{
+    text-align: left;
+    justify-content: space-evenly;
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.footer {
+    margin-top: 60px;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer > .block_1 {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    position: inherit;
+}
+.footer > .block_1 > .riot_game {
+    height: 100%;
+}
+.footer > .block_1 > .riot_game > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_1 > .garena {
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer > .block_1 > .garena > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_1 > .vn_esport {
+    height: 100%;
+}
+.footer > .block_1 > .vn_esport > img {
+    height: 100%;
+    width: auto;
+}
+.footer > .block_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+.footer > .block_3 {
+    margin-bottom: 30px;
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer > .block_3 > .block_3_left {
+    margin-right: 5%;
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+.footer > .block_3 > .block_3_right {
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+.footer > .block_3 > .block_3_left > .content {
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer > .block_3 > .block_3_right > .content {
+    font-weight: bold;
+    font-size: 18px;
+}

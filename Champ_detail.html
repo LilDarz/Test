@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Detail </title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/Champ_detail.css">
+</head>
+<body>
+    <body>
+        <div class="header">
+            <a class="icon" href="">
+                <img id="splash" src="./Images/pngegg (1).png" alt="">
+            </a>
+            <div class="content">
+                <div class="news" onclick="">news</div>
+                 <a class="champions" onclick="" href="./Champ_list.html">champions</a> 
+                <div class="user" onclick="">user</div>
+            </div>
+        </div>
+
+    <div class="content__box">
+        <div class="content__heading">
+            <div id="thumbnail" class="champ__skin__slide">
+        
+                <div class="slide" id="slide">
+                    <div class="mySlides fade" id="pic1" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic2" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic3" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic4" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic5" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic6" onclick="mySlides"></div>
+                    <div class="mySlides fade" id="pic7" onclick="mySlides"></div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+            </div>
+        </div>
+                <spam class="champ__name" id="name">Akali</spam>
+                <span class="champ__title" id="title"> abcxyz </span>
+                <p class="champ__description" id="descp">...</p>
+                
+                <div class = "spell" id="spell">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="tb">Skill</th>
+                                <th class="tb">Name</th>
+                                <th class="tb">Images</th>
+                                <th class="tb">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tb">Passive</td>
+                                <td class="tb" id="nameP">.</td>
+                                <td class="tb" id="skillImgP"> . </td>
+                                <td class="tb" id="skillDiscriptionP"> . </td>
+                            </tr>
+                            <tr>
+                                <td class="tb">Q</td>
+                                <td class="tb" id="nameQ">.</td>
+                                <td class="tb" id="skillImgQ"> . </td>
+                                <td class="tb" id="skillDiscriptionQ"> . </td>
+                            </tr>
+                            <tr>
+                                <td class="tb"> W</td>
+                                <td class="tb" id="nameW">.</td>
+                                <td class="tb" id="skillImgW"> . </td>
+                                <td class="tb" id="skillDiscriptionW"> . </td>
+                            </tr>
+                            <tr>
+                                <td class="tb">E</td>
+                                <td class="tb" id="nameE">.</td>
+                                <td class="tb" id="skillImgE"> . </td>
+                                <td class="tb" id="skillDiscriptionE"> . </td>
+                            </tr>
+                            <tr>
+                                <td class="tb">R</td>
+                                <td class="tb" id="nameR">.</td>
+                                <td class="tb" id="skillImgR"> . </td>
+                                <td class="tb" id="skillDiscriptionR"> . </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+       
+       
+   
+    <script src="./JS/Champ_detail.js"></script>
+    <script>
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+    </script>
+
+</body>
+</html>
